@@ -1,9 +1,13 @@
  # APEX-QR-Code-Scanner
  
-Updated functionality of the scanner. Should fix blurry or unreadable codes. changes were made in the build/qsrc.pkgd.min.js file
+Updated functionality of the scanner. Should fix blurry or unreadable codes. changes were made in the build/qsrc.pkgd.min.js file:
+
 -updated Html5QrCode library to last version
+
 -added combo box to select cameras from a list
+
 -default to last device in the camera array, usually the main camera
+
 -added zoom for better code readability
  
  ![](https://img.shields.io/badge/ORACLE-APEX-success.svg) ![](https://img.shields.io/badge/Plug--in_Type-Region-orange.svg) ![](https://img.shields.io/badge/Avaiable%20for%20APEX-5.1.3%20or%20above-blue)
