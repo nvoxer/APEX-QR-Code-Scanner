@@ -1,6 +1,6 @@
  # APEX-QR-Code-Scanner
  
-Updated functionality of the scanner. Should fix blurry or unreadable codes
+Updated functionality of the scanner. Should fix blurry or unreadable codes.  just replace the qsrc.pkgd.min.js file in your Apex environment with the one provided here (build/qsrc.pkgd.min.js)
 
 -updated Html5QrCode library to last version
 
