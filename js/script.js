@@ -37,15 +37,15 @@ const qrCodeScanner = function ( apex, $, Html5Qrcode, Html5QrcodeSupportedForma
                     if (devices && devices.length) {
                         let comboBox = document.getElementById("cameraSelector");
                         let label = document.createElement("label");
-                        label.textContent = "Seleccionar cámara:";
+                        label.textContent = "Select camera:";
                         label.style.marginLeft = "20px"
                         if (!comboBox) {
                             comboBox = document.createElement("select");
                             comboBox.id = "cameraSelector";
                             comboBox.className = "camerasList";
 
-                            // Add the combo box 
-                            const container = document.getElementById("escanerContainer") || document.body;
+                            // Attach the combo and label to an apex region with static id "scannerContainer"
+                            const container = document.getElementById("scannerContainer") || document.body;
                             //container$.append(label);
                             //container.insertBefore(comboBox, container.firstChild);
                             container.append(label);
