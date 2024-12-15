@@ -19,7 +19,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/RonnyWeiss/APEX-QR-Code-Scanner.git"
+        "url": "https://github.com/nvoxer/APEX-QR-Code-Scanner.git"
     },
     "oracle": {
         "versions": ["12.2.0.1", "18.4.0.0", "19.0.0.0.0", "19.2.0.0.19", "21.0.0.0.0", "21.1.0.0.0", "21.1.0.0.1"],
