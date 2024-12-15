@@ -13,8 +13,8 @@ whenever sqlerror exit sql.sqlcode rollback
 --------------------------------------------------------------------------------
 begin
 wwv_flow_api.import_begin (
- p_version_yyyy_mm_dd=>'2024.12.15'
-,p_release=>'5.1.4.00.00'
+ p_version_yyyy_mm_dd=>'2016.08.24'
+,p_release=>'5.1.3.00.05'
 ,p_default_workspace_id=>100000
 ,p_default_application_id=>55310
 ,p_default_id_offset=>22598797485307386842
@@ -49,8 +49,8 @@ begin
 wwv_flow_api.create_plugin(
  p_id=>wwv_flow_api.id(32016062091665092914)
 ,p_plugin_type=>'REGION TYPE'
-,p_name=>'APEX.QR.CODE.SCANNER.MODIF'
-,p_display_name=>'APEX QR Code Scanner Modified'
+,p_name=>'APEX.QR.CODE.SCANNER'
+,p_display_name=>'APEX QR Code Scanner'
 ,p_supported_ui_types=>'DESKTOP:JQM_SMARTPHONE'
 ,p_javascript_file_urls=>'#PLUGIN_FILES#qrsc.pkgd.min.js'
 ,p_plsql_code=>wwv_flow_string.join(wwv_flow_t_varchar2(
