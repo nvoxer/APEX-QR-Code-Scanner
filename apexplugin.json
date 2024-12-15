@@ -3,9 +3,9 @@
     "version": "22.12.15",
     "description": "This Region Plug-in is used to scan QR-Codes, Barcodes and others. If any string has been detected an APEX Item can be set, Dynamic Action can be fired or JavaScript can be executed. The following formats are supported: QR_CODE, AZTEC, CODABAR, CODE_39, CODE_93, CODE_128, DATA_MATRIX, MAXICODE, ITF, EAN_13, EAN_8, PDF_417, RSS_14, RSS_EXPANDED, UPC_A, UPC_E, UPC_EAN_EXTENSION.<p><b>Important clarification: My work in the development team of Oracle APEX is in no way related to my open source projects or the plug-ins here on apex.world! All plug-ins are built in my spare time and are not supported by Oracle!</b></p>",
     "keywords": ["oracle", "apex", "plugin", "barcode", "code", "scanner", "qr code", "qrcode", "camera"],
-    "homepage": "https://github.com/nvoxer/APEX-QR-Code-Scanner",
+    "homepage": "https://github.com/RonnyWeiss/APEX-QR-Code-Scanner",
     "bugs": {
-        "url": "https://github.com/nvoxer/APEX-QR-Code-Scanner/issues",
+        "url": "https://github.com/RonnyWeiss/APEX-QR-Code-Scanner/issues",
         "email": "wronny@gmx.de"
     },
     "license": "MIT",
@@ -26,7 +26,7 @@
         "apex": {
             "versions": ["18.1.0.00.45", "18.2.0.00.12", "19.1.0.00.15", "19.2.0.00.18", "20.1.0.00.13", "20.2.0.00.20", "21.1.0", "21.2.0", "22.1.0", "22.2.0", "23.1.0"],
             "plugin": {
-                "internalName": "APEX.QR.CODE.SCANNER.MODIF",
+                "internalName": "APEX.QR.CODE.SCANNER",
                 "type": "region",
                 "demo": "https://apex.oracle.com/pls/apex/f?p=103428",
                 "previewImage": "https://raw.githubusercontent.com/RonnyWeiss/APEX-QR-Code-Scanner/master/screenshot.gif"
