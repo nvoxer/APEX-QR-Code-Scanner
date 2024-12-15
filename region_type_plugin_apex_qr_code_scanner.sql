@@ -49,8 +49,8 @@ begin
 wwv_flow_api.create_plugin(
  p_id=>wwv_flow_api.id(32016062091665092914)
 ,p_plugin_type=>'REGION TYPE'
-,p_name=>'APEX.QR.CODE.SCANNER'
-,p_display_name=>'APEX QR Code Scanner'
+,p_name=>'APEX.QR.CODE.SCANNER.MODIF'
+,p_display_name=>'APEX QR Code Scanner Modified'
 ,p_supported_ui_types=>'DESKTOP:JQM_SMARTPHONE'
 ,p_javascript_file_urls=>'#PLUGIN_FILES#qrsc.pkgd.min.js'
 ,p_plsql_code=>wwv_flow_string.join(wwv_flow_t_varchar2(
