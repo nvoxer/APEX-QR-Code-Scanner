@@ -90,7 +90,7 @@ wwv_flow_api.create_plugin(
 '<li>apex.region("region_id").setFacingMode(); => change camera</li>',
 '</ul>'))
 ,p_version_identifier=>'22.12.15'
-,p_about_url=>'https://github.com/RonnyWeiss/APEX-QR-Code-Scanner'
+,p_about_url=>'https://github.com/nvoxer/APEX-QR-Code-Scanner'
 ,p_files_version=>1227
 );
 wwv_flow_api.create_plugin_attribute(
